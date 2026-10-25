@@ -1,0 +1,14 @@
+# C编译产物
+a.out
+rcv
+snd
+*.o
+*.exe
+
+# 其他临时文件
+*.swp
+*~
+.DS_Store
+main
+read
+write
