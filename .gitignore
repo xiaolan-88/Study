@@ -4,6 +4,9 @@ rcv
 snd
 *.o
 *.exe
+*.bin
+*.exe
+*.elf
 
 # 其他临时文件
 *.swp
