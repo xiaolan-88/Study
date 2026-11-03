@@ -141,12 +141,7 @@ int main(int argc,char *argv[])
         exit(EXIT_FAILURE);
     }
 
-    //0.主进程回收僵尸态子进程
-    if(signal(SIGCHLD,signal_handler) == SIG_ERR)
-    {
-        perror("Fail to signal");
-        return -1;
-    }
+
 
     //1.接收用户的密钥，准备登陆
     sockfd = user_login(argv[1],argv[2]);
